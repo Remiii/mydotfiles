@@ -1,0 +1,13 @@
+vbell off
+startup_message off
+#hardstatus alwayslastline "%{.k} %{..R}%-w%{..r}%n %t%{-}%+w%=%l  %c:%s  %{..r}%H%{.kw}  "
+screen -t irc 'irssi'
+screen -t htop 'htop'
+screen -t logApache
+screen -t logAuth
+screen -t logPostfix
+screen -t zsh
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
+hardstatus alwayslastline "%{.k} %{..G}%-w%{..g}%n %t%{-}%+w%=%l  %c:%s  %{..g}%H%{.kw}  "

@@ -1,0 +1,13 @@
+[color]
+	ui = true
+[user]
+	name = XXX
+	email = XXX
+[github]
+	user = XXX
+	token = XXX
+[alias]
+	c = commit
+	ch = checkout
+	s = status
+	b = "branch -a"

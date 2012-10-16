@@ -11,3 +11,4 @@
 	ch = checkout
 	s = status
 	b = "branch -a"
+	d = diff

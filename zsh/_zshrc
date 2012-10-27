@@ -1,6 +1,7 @@
 #
 # .zshrc
-# By Remiii - 2012/05/16
+# By Remiii - 2012/10/27
+# Set default bash to zsh : chsh -s /bin/zsh
 #
 
 #

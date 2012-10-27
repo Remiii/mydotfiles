@@ -8,7 +8,7 @@
 	token = XXX
 [alias]
 	c = commit
-	ch = checkout
+	co = checkout
 	s = status
 	b = "branch -a"
 	d = diff

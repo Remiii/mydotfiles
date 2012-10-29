@@ -16,12 +16,16 @@ mydotfiles
 
 In order to update submodule : `git submodule update`
 
+* Create this link
+
+`ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload`
+
 * Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
 
 ### Vim Part
 
-`$ln -s ./vim/.vimrc ~/.vimrc`
-`$ln -s ./vim/.vim ~/.vim/`
+`$ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc`<br >
+`$ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim`
 
 ## VIM Part
 

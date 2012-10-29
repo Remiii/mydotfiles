@@ -22,7 +22,7 @@ In order to update submodule : `git submodule update`
 
 * Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
 
-### Vim Part
+** Vim Part
 
 `$ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc`<br >
 `$ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim`

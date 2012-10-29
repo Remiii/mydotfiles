@@ -14,15 +14,15 @@ mydotfiles
 
 `$git submodule update --init`
 
-In order to update submodule : `git submodule update`
+In order to update submodule : `$git submodule update`
 
 * Create this link
 
-`ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload`
+`$ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload`
 
 * Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
 
-** Vim Part
+ * Vim Part
 
 `$ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc`<br >
 `$ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim`

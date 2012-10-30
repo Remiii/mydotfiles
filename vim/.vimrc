@@ -77,6 +77,8 @@ set nowrap
 " Set tab
 set tabstop=4
 
+" Set spaces instead of tab
+set expandtab
 
 set backspace=indent,eol,start      " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on

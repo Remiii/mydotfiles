@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""
 " Vim config - file .vimrc "
-" By Remiii - 2012/10/28   "
+" By Remiii - 2012/11/04   "
 """"""""""""""""""""""""""""
 
 """"""""""""
@@ -13,6 +13,9 @@ call pathogen#helptags()
 """""""""""""""""
 " Global config "
 """""""""""""""""
+
+" Path
+"MY_HOME = '~/'
 
 " No Vi compatibility
 set nocompatible
@@ -74,17 +77,19 @@ set undofile
 " Don't wrap lines
 set nowrap
 
-" Set tab
-set tabstop=4
-
 " Set spaces instead of tab
 set expandtab
+
+" Set tab
+set tabstop=4
+set shiftwidth=4  " number of spaces to use for autoindenting
+set softtabstop=4
+" Some info: http://vim.wikia.com/wiki/Indenting_source_code
 
 set backspace=indent,eol,start      " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on
 set copyindent    " copy the previous indentation on autoindenting
 set number        " always show line numbers
-set shiftwidth=4  " number of spaces to use for autoindenting
 set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch     " set show matching parenthesis
 set ignorecase    " ignore case when searching
@@ -193,6 +198,17 @@ autocmd FileType html,xhtml,xml,html.twig,htmldjango,jinjahtml,eruby,mako source
 let g:tagbar_usearrows = 1
 nnoremap <leader>l :TagbarToggle<CR>
 
+""""""""""""
+" Snipmate "
+""""""""""""
+" Snipmate config
+let g:snips_author = 'Remiii'
+let g:snippets_dir = '~/.vim/snippets/'
+" Use HTML and PHP snippets in .php files
+"nmap <silent> <leader>ph :set filetype=php.html<CR>
+" Shortcut for reloading snippets, useful when developing
+"nnoremap <silent> <leader>r <esc>:exec ReloadAllSnippets()<cr>
+
 """""""""""""
 " NERD Tree "
 """""""""""""
@@ -200,4 +216,25 @@ nnoremap <leader>l :TagbarToggle<CR>
 let NERDTreeShowHidden=1
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
+
+""""""""""""
+" Function "
+""""""""""""
+
+func! CleanCode()
+    exe "normal mz"
+    :1;$ s/\r//g
+    :%s/^M//g
+exe "normal `z"
+endfunc
+
+noremap <F3> :call CleanCode()<CR>
+
+
+"Remove ^M
+"function! CleanCode()
+"    :1;$ s/\r//g
+"endfunction
+
+"nmap CleanCode :call CleanCode()
 

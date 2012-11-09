@@ -58,7 +58,7 @@ For more information see this articles:
 * http://mirnazim.org/writings/vim-plugins-i-use/
 * http://stackoverflow.com/questions/3794895/installing-vim-with-ruby-support-ruby
 * http://nvie.com/posts/how-i-boosted-my-vim/i
-* url = git@github.com:Remiii/vim-twig.git
+* https://github.com/groenewege/vimrc
 
 ## License
 

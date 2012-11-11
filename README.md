@@ -6,7 +6,7 @@ mydotfiles
 
 Fork me on GITHUB https://github.com/Remiii/mydotfiles
 
-![Screen shot](https://github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)
+![Screen shot](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)
 
 ## Install
 

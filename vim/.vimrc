@@ -222,6 +222,8 @@ let g:snippets_dir = '~/.vim/snippets/'
 """""""""""""
 " Show dotfiles
 let NERDTreeShowHidden=1
+" Add some ignore files
+let NERDTreeIgnore=['\.git', '\.DS_Store', '^Icon']
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
 

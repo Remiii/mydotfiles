@@ -4,6 +4,10 @@
 
 mydotfiles
 
+Fork me on GITHUB https://github.com/Remiii/mydotfiles
+
+![Screen shot](https://github.com/Remiii/mydotfiles/tree/master/_documentation/Screen_001.png)
+
 ## Install
 
 * Clone the repository
@@ -36,12 +40,19 @@ See: http://github.com/wincent/Command-T
 
 * Create this link
 
-`$ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload`
+```bash
+$ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload
+```
 
 * Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
 
-`$ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc`<br >
-`$ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim`
+```bash
+$ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
+```
+
+```bash
+$ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
+```
 
 ## VIM Part
 
@@ -54,6 +65,7 @@ See: http://github.com/wincent/Command-T
 #### solarized
 #### supertab
 #### togbar
+#### twig
 
 ## See also
 

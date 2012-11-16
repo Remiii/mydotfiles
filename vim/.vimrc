@@ -129,10 +129,10 @@ hi CursorLine term=none cterm=none ctermbg=0
 highlight WhitespaceEOL ctermbg=red
 match WhitespaceEOL /\s\+$/
 autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
-set guioptions-=T
-set guioptions-=m
-set guioptions+=c
-set guifont=Clean\ 8
+"set guioptions-=T
+"set guioptions-=m
+"set guioptions+=c
+"set guifont=Clean\ 8
 
 """""""""""""""""""""
 " Global map config "

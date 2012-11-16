@@ -1,7 +1,16 @@
 """"""""""""""""""""""""""""
 " Vim config - file .vimrc "
-" By Remiii - 2012/11/04   "
+" By Remiii - 2012/11/11   "
 """"""""""""""""""""""""""""
+
+" To start vim without using this .vimrc file, use:
+"     vim -u NORC
+"
+" To start vim without loading any .vimrc or plugins, use:
+"     vim -u NONE
+
+" No Vi compatibility
+set nocompatible
 
 """"""""""""
 " Pathogen "
@@ -9,6 +18,8 @@
 " Vim configs with Pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#infect()
+"filetype plugin indent on                      " enable detection, plugins and indenting in one step"
 
 """""""""""""""""
 " Global config "
@@ -16,9 +27,6 @@ call pathogen#helptags()
 
 " Path
 "MY_HOME = '~/'
-
-" No Vi compatibility
-set nocompatible
 
 " Fix backspace indentation
 set backspace=indent,eol,start
@@ -214,6 +222,8 @@ let g:snippets_dir = '~/.vim/snippets/'
 """""""""""""
 " Show dotfiles
 let NERDTreeShowHidden=1
+" Add some ignore files
+let NERDTreeIgnore=['\.git', '\.DS_Store', '^Icon']
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
 

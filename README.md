@@ -59,13 +59,30 @@ $ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ### Plugin list
 
 #### closetag
+
 #### commad-t
-#### delmitmate
-#### nerdtree
-#### solarized
+
+#### [Delmitmate](http://www.vim.org/scripts/script.php?script_id=2754)
+Provides auto-balancing and some expansions for parens, quotes, etc.
+
+#### [NerdTree](http://www.vim.org/scripts/script.php?script_id=1658)
+A tree explorer plugin for navigating the filesystem.
+
+#### [Solarized](http://ethanschoonover.com/solarized)
+Precision colorscheme for the vim text editor.
+
 #### supertab
+
 #### togbar
-#### twig
+
+#### [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540)
+TextMate-style snippets for Vim.
+
+#### [twig](https://github.com/Remiii/vim-twig)
+Twig syntax highlighting, snipMate, etc.
+
+#### [Vim Commenter](http://www.vim.org/scripts/script.php?script_id=1528)
+A plugin that allows for easy commenting of code for many filetypes.
 
 ## See also
 

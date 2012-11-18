@@ -1,11 +1,12 @@
-# Cheat sheet Vim<br />
-<br />
-A collection of commands / shortcuts for VIM. This file contains general shortcuts and personal shortcuts defined by plugins and my vimrc file (https://github.com/Remiii/mydotfiles).<br />
-<br />
-## GENERAL<br />
-<br />
-### CURSOR MOVEMENT<br />
-<br />
+# Cheat sheet Vim
+
+A collection of commands / shortcuts for VIM. This file contains general shortcuts and personal shortcuts defined by plugins and my vimrc file (https://github.com/Remiii/mydotfiles).
+
+## GENERAL
+
+### CURSOR MOVEMENT
+
+```bash
 h                   move left<br />
 j                   move down<br />
 k                   move up<br />
@@ -44,9 +45,11 @@ fx                  search line forward for 'x'<br />
 Fx                  search line backward for 'x'<br />
 tx                  search line forward before 'x'<br />
 Tx                  search line backward before 'x'}]]})<br />
-<br />
-### INSERT MODE<br />
-<br />
+```
+
+### INSERT MODE
+
+```bash
 i                   start insert mode at cursor<br />
 I                   insert at the beginning of the line<br />
 a                   append after the cursor<br />
@@ -54,10 +57,11 @@ A                   append at the end of the line<br />
 o                   open (append) blank line below current line<br />
 O                   open blank line above current line<br />
 Esc                 exit insert mode<br />
-<br />
-<br />
-### EDITING<br />
-<br />
+```
+
+### EDITING
+
+```bash
 r                   replace a single character (does not use insert mode)<br />
 R                   enter Insert mode, replacing characters rather than inserting<br />
 J                   join line below to the current one<br />
@@ -84,18 +88,22 @@ ddkp                swap current line with previous<br />
 :%retab             fix spaces / tabs issues in whole file<br />
 :r [name]           insert the file [name] below the cursor.<br />
 :r !{cmd}           execute {cmd} and insert its standard output below the cursor.<br />
-<br />
-### DELETING TEXT<br />
-<br />
+```
+
+### DELETING TEXT
+
+```bash
 x                   delete current character<br />
 X                   delete previous character<br />
 dw                  delete the current word<br />
 dd                  delete (cut) a line<br />
 D                   delete from cursor to end of line<br />
 :[range]d           delete [range] lines<br />
-<br />
-### COPYING AND MOVING TEXT<br />
-<br />
+```
+
+### COPYING AND MOVING TEXT
+
+```bash
 yw                  yank word<br />
 yy                  yank (copy) a line<br />
 2yy                 yank 2 lines<br />
@@ -113,16 +121,20 @@ P                   put (paste) before cursor/current line<br />
 "xgp                just like "p", but leave the cursor just after the new text<br />
 "xgP                just like "P", but leave the cursor just after the new text<br />
 :[line]put x        put the text from register x after [line]<br />
-<br />
-### MACROS<br />
-<br />
+```
+
+### MACROS
+
+```bash
 qa                  start recording macro 'a'<br />
 q                   end recording macro<br />
 @a                  replay macro 'a'<br />
 @:                  replay last command<br />
-<br />
-### VISUAL MODE<br />
-<br />
+```
+
+### VISUAL MODE
+
+```bash
 v                   start visual mode, mark lines, then do command (such as y-yank)<br />
 V                   start linewise visual mode<br />
 o                   move to other end of marked area<br />
@@ -135,26 +147,32 @@ ab                  a {} block (with brackets)<br />
 ib                  inner () block<br />
 ib                  inner {} block<br />
 Esc                 exit visual mode<br />
-<br />
-### Visual mode commands<br />
-<br />
+```
+
+### Visual mode commands
+
+```bash
 >                   shift right<br />
 <                   shift left<br />
 c                   change (replace) marked text<br />
 y                   yank (copy) marked text<br />
 d                   delete marked text<br />
 ~                   switch case<br />
-<br />
-### SPELLING<br />
-<br />
+```
+
+### SPELLING
+
+```bash
 ]s                  next misspelled word<br />
 [s                  previous misspelled word<br />
 zg                  add word to wordlist<br />
 zug                 undo last add word<br />
 z=                  suggest word<br />
-<br />
-### EXITING<br />
-<br />
+```
+
+### EXITING
+
+```bash
 :q                  quit Vim. This fails when changes have been made.<br />
 :q!                 quit without writing.<br />
 :cq                 quit always, without writing.<br />
@@ -178,8 +196,11 @@ N                           repeat search in opposite direction<br />
 :%s/old/new/gc              replace all old with new throughout file with confirmation<br />
 :argdo %s/old/new/gc | wq   open multiple files and run this command to replace old <br />
                             with new in every file with confirmation, save and quit<br />
-### MULTIPLE FILES<br />
-<br />
+```
+
+### MULTIPLE FILES
+
+```bash
 :e filename         edit a file in a new buffer<br />
 :tabe filename      edit a file in a new tab (Vim7, gVim)<br />
 :ls                 list all buffers<br />
@@ -188,9 +209,11 @@ N                           repeat search in opposite direction<br />
 :bd                 delete a buffer (close a file)<br />
 :b1                 show buffer 1<br />
 :b vimrc            show buffer whose filename begins with "vimrc"<br />
-<br />
-### WINDOWS<br />
-<br />
+```
+
+### WINDOWS
+
+```bash
 :sp f               split open f<br />
 :vsp f              vsplit open f<br />
 CTRL-w s            split windows<br />
@@ -206,9 +229,11 @@ CTRL-w +            larger window<br />
 CTRL-w -            smaller window<br />
 CTRL-w =            equal window<br />
 CTRL-w o            close other windows<br />
-<br />
-### QUICKFIX WINDOW<br />
-<br />
+```
+
+### QUICKFIX WINDOW
+
+```bash
 copen               open quickfix window<br />
 cclose              close quickfix window<br />
 cc [nr]             display error [nr]<br />
@@ -216,9 +241,11 @@ cfirst              display the first error<br />
 clast               display the last error<br />
 [count]cn           display [count] next error<br />
 [count]cp           display [count] previous error<br />
-<br />
-### PROGRAMMING<br />
-<br />
+```
+
+### PROGRAMMING
+
+```bash
 %                   show matching brace, bracket, or parenthese<br />
 gf                  edit the file whose name is under or after the cursor<br />
 gd                  when the cursor is on a local variable or function, jump to its declaration<br />
@@ -226,8 +253,8 @@ gd                  when the cursor is on a local variable or function, jump to 
 gi                  return to insert mode where you inserted text the last time<br />
 CTRL-o              move to previous position you were at<br />
 CTRL-i              move to more recent position you were at]<br />
-<br />
-## PLUGINS<br />
-<br />
-### Command-t<br />
-<br />
+```
+
+## PLUGINS
+
+### Command-t

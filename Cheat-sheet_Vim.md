@@ -6,253 +6,255 @@ A collection of commands / shortcuts for VIM. This file contains general shortcu
 
 ### CURSOR MOVEMENT
 
-```bash
-h                   move left<br />
-j                   move down<br />
-k                   move up<br />
-l                   move right<br />
-w                   jump by start of words (punctuation considered words)<br />
-W                   jump by words (spaces separate words)<br />
-e                   jump to end of words (punctuation considered words)<br />
-E                   jump to end of words (no punctuation)<br />
-b                   jump backward by words (punctuation considered words)<br />
-B                   jump backward by words (no punctuation)<br />
-ge                  jump backward to end of words<br />
-0                   (zero) start of line<br />
-^                   first non-blank character of line<br />
-$                   end of line<br />
--                   move line upwards, on the first non blank character<br />
-+                   move line downwards, on the first non blank character<br />
-<enter>             move line downwards, on the first non blank character<br />
-gg                  go to first line<br />
-G                   go to last line<br />
-nG                  go To line n<br />
-:n                  go To line n<br />
-)                   move the cursor forward to the next sentence.<br />
-(                   move the cursor backward by a sentence.<br />
-{                   move the cursor a paragraph backwards<br />
-}                   move the cursor a paragraph forwards<br />
-]]                  move the cursor a section forwards or to the next {<br />
-[[                  move the cursor a section backwards or the previous {<br />
-CTRL-f              move the cursor forward by a screen of text<br />
-CTRL-b              move the cursor backward by a screen of text<br />
-CTRL-u              move the cursor up by half a screen<br />
-CTRL-d              move the cursor down by half a screen<br />
-H                   move the cursor to the top of the screen.<br />
-M                   move the cursor to the middle of the screen.<br />
-L                   move the cursor to the bottom of the screen.<br />
-fx                  search line forward for 'x'<br />
-Fx                  search line backward for 'x'<br />
-tx                  search line forward before 'x'<br />
-Tx                  search line backward before 'x'}]]})<br />
+```
+h                   move left
+j                   move down
+k                   move up
+l                   move right
+w                   jump by start of words (punctuation considered words)
+W                   jump by words (spaces separate words)
+e                   jump to end of words (punctuation considered words)
+E                   jump to end of words (no punctuation)
+b                   jump backward by words (punctuation considered words)
+B                   jump backward by words (no punctuation)
+ge                  jump backward to end of words
+0                   (zero) start of line
+^                   first non-blank character of line
+$                   end of line
+-                   move line upwards, on the first non blank character
++                   move line downwards, on the first non blank character
+<enter>             move line downwards, on the first non blank character
+gg                  go to first line
+G                   go to last line
+nG                  go To line n
+:n                  go To line n
+)                   move the cursor forward to the next sentence.
+(                   move the cursor backward by a sentence.
+{                   move the cursor a paragraph backwards
+}                   move the cursor a paragraph forwards
+]]                  move the cursor a section forwards or to the next {
+[[                  move the cursor a section backwards or the previous {
+CTRL-f              move the cursor forward by a screen of text
+CTRL-b              move the cursor backward by a screen of text
+CTRL-u              move the cursor up by half a screen
+CTRL-d              move the cursor down by half a screen
+H                   move the cursor to the top of the screen.
+M                   move the cursor to the middle of the screen.
+L                   move the cursor to the bottom of the screen.
+fx                  search line forward for 'x'
+Fx                  search line backward for 'x'
+tx                  search line forward before 'x'
+Tx                  search line backward before 'x'}]]})
 ```
 
 ### INSERT MODE
 
-```bash
-i                   start insert mode at cursor<br />
-I                   insert at the beginning of the line<br />
-a                   append after the cursor<br />
-A                   append at the end of the line<br />
-o                   open (append) blank line below current line<br />
-O                   open blank line above current line<br />
-Esc                 exit insert mode<br />
+```
+i                   start insert mode at cursor
+I                   insert at the beginning of the line
+a                   append after the cursor
+A                   append at the end of the line
+o                   open (append) blank line below current line
+O                   open blank line above current line
+Esc                 exit insert mode
 ```
 
 ### EDITING
 
-```bash
-r                   replace a single character (does not use insert mode)<br />
-R                   enter Insert mode, replacing characters rather than inserting<br />
-J                   join line below to the current one<br />
-cc                  change (replace) an entire line<br />
-cw                  change (replace) to the end of word<br />
-c$                  change (replace) to the end of line<br />
-s                   delete character at cursor and substitute text<br />
-S                   delete line at cursor and substitute text (same as cc)<br />
-xp                  transpose two letters (delete and paste, technically)<br />
-u                   undo<br />
-CTRL-r              redo<br />
-.                   repeat last command<br />
-~                   switch case<br />
-g~iw                switch case of current word<br />
-gUiw                make current word uppercase<br />
-guiw                make current word lowercase<br />
-gU$                 make uppercase until end of line<br />
-gu$                 make lowercase until end of line<br />
->>                  indent line one column to right<br />
-<<                  indent line one column to left<br />
-==                  auto-indent current line<br />
-ddp                 swap current line with next<br />
-ddkp                swap current line with previous<br />
-:%retab             fix spaces / tabs issues in whole file<br />
-:r [name]           insert the file [name] below the cursor.<br />
-:r !{cmd}           execute {cmd} and insert its standard output below the cursor.<br />
+```
+r                   replace a single character (does not use insert mode)
+R                   enter Insert mode, replacing characters rather than inserting
+J                   join line below to the current one
+cc                  change (replace) an entire line
+cw                  change (replace) to the end of word
+c$                  change (replace) to the end of line
+s                   delete character at cursor and substitute text
+S                   delete line at cursor and substitute text (same as cc)
+xp                  transpose two letters (delete and paste, technically)
+u                   undo
+CTRL-r              redo
+.                   repeat last command
+~                   switch case
+g~iw                switch case of current word
+gUiw                make current word uppercase
+guiw                make current word lowercase
+gU$                 make uppercase until end of line
+gu$                 make lowercase until end of line
+>>                  indent line one column to right
+<<                  indent line one column to left
+==                  auto-indent current line
+ddp                 swap current line with next
+ddkp                swap current line with previous
+:%retab             fix spaces / tabs issues in whole file
+:r [name]           insert the file [name] below the cursor.
+:r !{cmd}           execute {cmd} and insert its standard output below the cursor.
 ```
 
 ### DELETING TEXT
 
-```bash
-x                   delete current character<br />
-X                   delete previous character<br />
-dw                  delete the current word<br />
-dd                  delete (cut) a line<br />
-D                   delete from cursor to end of line<br />
-:[range]d           delete [range] lines<br />
+```
+x                   delete current character
+X                   delete previous character
+dw                  delete the current word
+dd                  delete (cut) a line
+D                   delete from cursor to end of line
+:[range]d           delete [range] lines
 ```
 
 ### COPYING AND MOVING TEXT
 
-```bash
-yw                  yank word<br />
-yy                  yank (copy) a line<br />
-2yy                 yank 2 lines<br />
-y$                  yank to end of line<br />
-p                   put (paste) the clipboard after cursor/current line<br />
-P                   put (paste) before cursor/current line<br />
-:set paste          avoid unexpected effects in pasting<br />
-<br />
-:registers          display the contents of all registers<br />
-"xyw                yank word into register x<br />
-"xyy                yank line into register x<br />
-:[range]y x         yank [range] lines into register x<br />
-"xp                 put the text from register x after the cursor<br />
-"xP                 put the text from register x before the cursor<br />
-"xgp                just like "p", but leave the cursor just after the new text<br />
-"xgP                just like "P", but leave the cursor just after the new text<br />
-:[line]put x        put the text from register x after [line]<br />
+```
+yw                  yank word
+yy                  yank (copy) a line
+2yy                 yank 2 lines
+y$                  yank to end of line
+p                   put (paste) the clipboard after cursor/current line
+P                   put (paste) before cursor/current line
+:set paste          avoid unexpected effects in pasting
+
+:registers          display the contents of all registers
+"xyw                yank word into register x
+"xyy                yank line into register x
+:[range]y x         yank [range] lines into register x
+"xp                 put the text from register x after the cursor
+"xP                 put the text from register x before the cursor
+"xgp                just like "p", but leave the cursor just after the new text
+"xgP                just like "P", but leave the cursor just after the new text
+:[line]put x        put the text from register x after [line]
 ```
 
 ### MACROS
 
-```bash
-qa                  start recording macro 'a'<br />
-q                   end recording macro<br />
-@a                  replay macro 'a'<br />
-@:                  replay last command<br />
+```
+qa                  start recording macro 'a'
+q                   end recording macro
+@a                  replay macro 'a'
+@:                  replay last command
 ```
 
 ### VISUAL MODE
 
-```bash
-v                   start visual mode, mark lines, then do command (such as y-yank)<br />
-V                   start linewise visual mode<br />
-o                   move to other end of marked area<br />
-U                   upper case of marked area<br />
-CTRL-v              start visual block mode<br />
-O                   move to other corner of block<br />
-aw                  mark a word<br />
-ab                  a () block (with braces)<br />
-ab                  a {} block (with brackets)<br />
-ib                  inner () block<br />
-ib                  inner {} block<br />
-Esc                 exit visual mode<br />
+```
+v                   start visual mode, mark lines, then do command (such as y-yank)
+V                   start linewise visual mode
+o                   move to other end of marked area
+U                   upper case of marked area
+CTRL-v              start visual block mode
+O                   move to other corner of block
+aw                  mark a word
+ab                  a () block (with braces)
+ab                  a {} block (with brackets)
+ib                  inner () block
+ib                  inner {} block
+Esc                 exit visual mode
 ```
 
 ### Visual mode commands
 
-```bash
->                   shift right<br />
-<                   shift left<br />
-c                   change (replace) marked text<br />
-y                   yank (copy) marked text<br />
-d                   delete marked text<br />
-~                   switch case<br />
+```
+>                   shift right
+<                   shift left
+c                   change (replace) marked text
+y                   yank (copy) marked text
+d                   delete marked text
+~                   switch case
 ```
 
 ### SPELLING
 
-```bash
-]s                  next misspelled word<br />
-[s                  previous misspelled word<br />
-zg                  add word to wordlist<br />
-zug                 undo last add word<br />
-z=                  suggest word<br />
+```
+]s                  next misspelled word
+[s                  previous misspelled word
+zg                  add word to wordlist
+zug                 undo last add word
+z=                  suggest word
 ```
 
 ### EXITING
 
-```bash
-:q                  quit Vim. This fails when changes have been made.<br />
-:q!                 quit without writing.<br />
-:cq                 quit always, without writing.<br />
-:wq                 write the current file and exit.<br />
-:wq!                write the current file and exit always.<br />
-:wq {file}          write to {file}. Exit if not editing the last<br />
-:wq! {file}         write to {file} and exit always.<br />
-:[range]wq[!]       same as above, but only write the lines in [range].<br />
-ZZ                  write current file, if modified, and exit.<br />
-ZQ                  quit current file and exit (same as ":q!").<br />
-<br />
-### SEARCH/REPLACE<br />
-<br />
-/pattern                    search for pattern<br />
-?pattern                    search backward for pattern<br />
-n                           repeat search in same direction<br />
-N                           repeat search in opposite direction<br />
-*                           search forward, word under cursor<br />
-#                           search backward, word under cursor<br />
-:%s/old/new/g               replace all old with new throughout file<br />
-:%s/old/new/gc              replace all old with new throughout file with confirmation<br />
-:argdo %s/old/new/gc | wq   open multiple files and run this command to replace old <br />
-                            with new in every file with confirmation, save and quit<br />
+```
+:q                  quit Vim. This fails when changes have been made.
+:q!                 quit without writing.
+:cq                 quit always, without writing.
+:wq                 write the current file and exit.
+:wq!                write the current file and exit always.
+:wq {file}          write to {file}. Exit if not editing the last
+:wq! {file}         write to {file} and exit always.
+:[range]wq[!]       same as above, but only write the lines in [range].
+ZZ                  write current file, if modified, and exit.
+ZQ                  quit current file and exit (same as ":q!").
+```
+
+### SEARCH/REPLACE
+
+```
+/pattern                    search for pattern
+?pattern                    search backward for pattern
+n                           repeat search in same direction
+N                           repeat search in opposite direction
+*                           search forward, word under cursor
+#                           search backward, word under cursor
+:%s/old/new/g               replace all old with new throughout file
+:%s/old/new/gc              replace all old with new throughout file with confirmation
+:argdo %s/old/new/gc | wq   open multiple files and run this command to replace old 
+                            with new in every file with confirmation, save and quit
 ```
 
 ### MULTIPLE FILES
 
-```bash
-:e filename         edit a file in a new buffer<br />
-:tabe filename      edit a file in a new tab (Vim7, gVim)<br />
-:ls                 list all buffers<br />
-:bn                 go to next buffer<br />
-:bp                 go to previous buffer<br />
-:bd                 delete a buffer (close a file)<br />
-:b1                 show buffer 1<br />
-:b vimrc            show buffer whose filename begins with "vimrc"<br />
+```
+:e filename         edit a file in a new buffer
+:tabe filename      edit a file in a new tab (Vim7, gVim)
+:ls                 list all buffers
+:bn                 go to next buffer
+:bp                 go to previous buffer
+:bd                 delete a buffer (close a file)
+:b1                 show buffer 1
+:b vimrc            show buffer whose filename begins with "vimrc"
 ```
 
 ### WINDOWS
 
-```bash
-:sp f               split open f<br />
-:vsp f              vsplit open f<br />
-CTRL-w s            split windows<br />
-CTRL-w w            switch between windows<br />
-CTRL-w q            quit a window<br />
-CTRL-w v            split windows vertically<br />
-CTRL-w x            swap windows<br />
-CTRL-w h            left window<br />
-CTRL-w j            down window<br />
-CTRL-w k            up window<br />
-CTRL-w l            right window<br />
-CTRL-w +            larger window<br />
-CTRL-w -            smaller window<br />
-CTRL-w =            equal window<br />
-CTRL-w o            close other windows<br />
+```
+:sp f               split open f
+:vsp f              vsplit open f
+CTRL-w s            split windows
+CTRL-w w            switch between windows
+CTRL-w q            quit a window
+CTRL-w v            split windows vertically
+CTRL-w x            swap windows
+CTRL-w h            left window
+CTRL-w j            down window
+CTRL-w k            up window
+CTRL-w l            right window
+CTRL-w +            larger window
+CTRL-w -            smaller window
+CTRL-w =            equal window
+CTRL-w o            close other windows
 ```
 
 ### QUICKFIX WINDOW
 
-```bash
-copen               open quickfix window<br />
-cclose              close quickfix window<br />
-cc [nr]             display error [nr]<br />
-cfirst              display the first error<br />
-clast               display the last error<br />
-[count]cn           display [count] next error<br />
-[count]cp           display [count] previous error<br />
+```
+copen               open quickfix window
+cclose              close quickfix window
+cc [nr]             display error [nr]
+cfirst              display the first error
+clast               display the last error
+[count]cn           display [count] next error
+[count]cp           display [count] previous error
 ```
 
 ### PROGRAMMING
 
-```bash
-%                   show matching brace, bracket, or parenthese<br />
-gf                  edit the file whose name is under or after the cursor<br />
-gd                  when the cursor is on a local variable or function, jump to its declaration<br />
-''                  return to the line where the cursor was before the latest jump<br />
-gi                  return to insert mode where you inserted text the last time<br />
-CTRL-o              move to previous position you were at<br />
-CTRL-i              move to more recent position you were at]<br />
+```
+%                   show matching brace, bracket, or parenthese
+gf                  edit the file whose name is under or after the cursor
+gd                  when the cursor is on a local variable or function, jump to its declaration
+''                  return to the line where the cursor was before the latest jump
+gi                  return to insert mode where you inserted text the last time
+CTRL-o              move to previous position you were at
+CTRL-i              move to more recent position you were at]
 ```
 
 ## PLUGINS

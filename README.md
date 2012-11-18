@@ -95,7 +95,7 @@ For more information see this articles:
 
 ## License
 
-mydotfiles is licensed under the MIT license.
+mydotfiles is licensed under the MIT license (see LICENSE.md file).
 
 ## Author
 

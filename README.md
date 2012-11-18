@@ -56,6 +56,8 @@ $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 
 ## VIM Part
 
+Some info in the Cheat sheet file (see Cheat-sheet_Vim.md).
+
 ### Plugin list
 
 #### closetag

@@ -260,3 +260,21 @@ CTRL-i              move to more recent position you were at]
 ## PLUGINS
 
 ### Command-t
+
+TODO
+
+## Tricks
+
+### How to remove tab
+
+```
+:retab
+```
+
+### How to remove ^M (end of line)
+
+```
+:set fileformat=unix
+:1;$ s/\r//g
+```
+

@@ -54,6 +54,14 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
 
+### Install ZSH
+
+* Duplicate every files in the good path (eg. ~/.zshrc)
+
+```bash
+$ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
+```
+
 ## VIM Part
 
 Some info in the Cheat sheet file (see Cheat-sheet_Vim.md).

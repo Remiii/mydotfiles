@@ -7,20 +7,26 @@ mydotfiles
 Fork me on GITHUB https://github.com/Remiii/mydotfiles
 
 ![Screen shot - VIM](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)
+Screen shot of VIM.
 
 ![Screen shot - ZSH](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_002.png)
+Screen shot of ZSH.
 
 ## Global Install of the Term
 
 ### On OSX
 
-* Install iTerm2
+#### Install iTerm2
 
 [iTerm2](http://www.iterm2.com/#/section/home)
 
-* Install new Fonts
+#### Install new Fonts
 
 [Menlo Powerline fonts](https://gist.github.com/1595572)
+
+#### Install Solerized for iTerm2
+
+[Solarized for iTerm2](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) part of the [Solerized project](https://github.com/altercation/solarized).
 
 ## Install
 
@@ -144,12 +150,21 @@ Official site of ZSH
 
 ## See also
 
+### See also VIM part
+
 For more information see this articles:
 
 * http://mirnazim.org/writings/vim-plugins-i-use
 * http://stackoverflow.com/questions/3794895/installing-vim-with-ruby-support-ruby
 * http://nvie.com/posts/how-i-boosted-my-vim
 * https://github.com/groenewege/vimrc
+
+### See also ZSH part
+
+For more information see this articles:
+
+* https://github.com/robbyrussell/oh-my-zsh
+* https://gist.github.com/3712874
 
 ## License
 

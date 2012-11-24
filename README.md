@@ -6,7 +6,21 @@ mydotfiles
 
 Fork me on GITHUB https://github.com/Remiii/mydotfiles
 
-![Screen shot](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)
+![Screen shot - VIM](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)
+
+![Screen shot - ZSH](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_002.png)
+
+## Global Install of the Term
+
+### On OSX
+
+* Install iTerm2
+
+[iTerm2](http://www.iterm2.com/#/section/home)
+
+* Install new Fonts
+
+[Menlo Powerline fonts](https://gist.github.com/1595572)
 
 ## Install
 
@@ -54,12 +68,41 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
 
-### Install ZSH
+### Install ZSH part
+
+* Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/zsh/oh-my-zsh/templates/zshrc.zsh-template ~/documents/mydotfiles/zsh/.zshrc
+```
+
+* Modif path in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
+
+```bash
+ZSH=$HOME/documents/mydotfiles/zsh/oh-my-zsh
+```
 
 * Duplicate every files in the good path (eg. ~/.zshrc)
 
 ```bash
 $ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
+```
+
+#### Add remiii.zsh-theme
+
+remiii.zsh-theme is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
+
+
+* Creat this link in order to add remiii.zsh-theme
+
+```bash
+ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/agnoster.zsh-theme ~/documents/mydotfiles/zsh/oh-my-zsh/themes/remiii.zsh-theme
+```
+
+* Modif theme in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template in order to add remiii.zsh-theme
+
+```bash
+ZSH_THEME="remiii"
 ```
 
 ## VIM Part
@@ -93,6 +136,11 @@ Twig syntax highlighting, snipMate, etc.
 
 #### [Vim Commenter](http://www.vim.org/scripts/script.php?script_id=1528)
 A plugin that allows for easy commenting of code for many filetypes.
+
+## ZSH Part
+
+### [ZSH](http://www.zsh.org)
+Official site of ZSH
 
 ## See also
 

@@ -88,6 +88,12 @@ $ ln -s ~/documents/mydotfiles/zsh/oh-my-zsh/templates/zshrc.zsh-template ~/docu
 ZSH=$HOME/documents/mydotfiles/zsh/oh-my-zsh
 ```
 
+* Add plugin in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
+
+```bash
+plugins=(lol git)
+```
+
 * Duplicate every files in the good path (eg. ~/.zshrc)
 
 ```bash
@@ -97,7 +103,6 @@ $ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
 #### Add remiii.zsh-theme
 
 remiii.zsh-theme is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
-
 
 * Creat this link in order to add remiii.zsh-theme
 

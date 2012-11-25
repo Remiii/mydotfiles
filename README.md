@@ -24,9 +24,14 @@ Screen shot of ZSH.
 
 [Menlo Powerline fonts](https://gist.github.com/1595572)
 
-#### Install Solerized for iTerm2
+#### Install Solarized for iTerm2
 
 [Solarized for iTerm2](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) part of the [Solerized project](https://github.com/altercation/solarized).
+
+#### Install Solerized for files
+
+[Solarized for files](https://github.com/seebi/dircolors-solarized)
+Marks: think to add config in the Shell config (.zshrc...).
 
 ## Install
 
@@ -154,6 +159,13 @@ A plugin that allows for easy commenting of code for many filetypes.
 Official site of ZSH
 
 ## See also
+
+### See also Gloabl part
+
+For more information see this articles:
+* http://www.iterm2.com
+* http://ethanschoonover.com/solarized
+* https://github.com/seebi/dircolors-solarized
 
 ### See also VIM part
 

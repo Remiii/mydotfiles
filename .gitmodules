@@ -34,3 +34,6 @@
 [submodule "zsh/remiii.zsh-theme"]
 	path = zsh/remiii.zsh-theme
 	url = git@gist.github.com:4140040.git
+[submodule "zsh/dircolors-solarized"]
+	path = zsh/dircolors-solarized
+	url = git://github.com/seebi/dircolors-solarized.git

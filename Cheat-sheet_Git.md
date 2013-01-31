@@ -1,5 +1,13 @@
 # Cheat-sheet Git
 
+## Checkout branch
+
+### Checkout remote branch (on Github for example)
+
+```bash
+$ git checkout -b origin/branchName
+```
+
 ## Create branch
 
 ### Create local branch
@@ -8,7 +16,7 @@
 $ git branch branchName
 ```
 
-### Create remte branch (on Github for example)
+### Create remote branch (on Github for example)
 
 ```bash
 $ git push origin branchName
@@ -25,6 +33,6 @@ $ git checkout -b branchName origin/branchName
 ### Remove remote branch (on Github for example)
 
 ```bash
-$ git push --delete origin brnachName
+$ git push --delete origin branchName
 ```
 

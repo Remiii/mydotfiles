@@ -120,6 +120,11 @@ ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/agnoster.zsh-theme ~/documents
 ```bash
 ZSH_THEME="remiii"
 ```
+#### Sample config for ~/.zshrc
+
+```bash
+TODO
+```
 
 ## VIM Part
 

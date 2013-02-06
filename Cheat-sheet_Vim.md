@@ -265,6 +265,12 @@ TODO
 
 ## Tricks
 
+### Find and replace
+
+```
+:%s/old/new/g
+```
+
 ### How to remove tab
 
 ```

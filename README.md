@@ -115,7 +115,7 @@ $ ln -s ~/documents/mydotfiles/aws/ ~/.aws
 
 #### Add remiii.zsh-theme
 
-remiii.zsh-theme is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
+remiii.zsh-theme (see: [remiii.zsh-theme](https://gist.github.com/Remiii/4140040)) is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
 
 * Creat this link in order to add remiii.zsh-theme
 

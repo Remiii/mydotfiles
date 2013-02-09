@@ -105,6 +105,14 @@ plugins=(lol git)
 $ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
 ```
 
+### Install AWS Cli
+
+* Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/aws/ ~/.aws
+```
+
 #### Add remiii.zsh-theme
 
 remiii.zsh-theme is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
@@ -187,6 +195,12 @@ For more information see this articles:
 
 * https://github.com/robbyrussell/oh-my-zsh
 * https://gist.github.com/3712874
+
+### See also AWS Cli part
+
+For more information see this articles:
+
+* https://github.com/aws/aws-cli
 
 ## License
 

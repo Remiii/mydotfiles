@@ -5,7 +5,7 @@
 ### Checkout remote branch (on Github for example)
 
 ```bash
-$ git checkout -b origin/branchName
+$ git checkout -b branchName origin/branchName
 ```
 
 ## Create branch

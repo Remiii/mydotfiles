@@ -27,7 +27,7 @@ $ git push origin branchName
 ### Remove local branch
 
 ```bash
-$ git checkout -b branchName origin/branchName
+$ git branch -d branchName 
 ```
 
 ### Remove remote branch (on Github for example)

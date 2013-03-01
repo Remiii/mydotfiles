@@ -140,6 +140,9 @@ TODO
 
 ```bash
 $ git submodule update
+
+$ cd toSubmoduleDir
+$ git pull
 ```
 
 ## VIM Part

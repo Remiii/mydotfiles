@@ -134,6 +134,14 @@ ZSH_THEME="remiii"
 TODO
 ```
 
+## Update
+
+*  submodules (NerdTree, Solarized...)
+
+```bash
+$ git submodule update
+```
+
 ## VIM Part
 
 Some info in the Cheat sheet file (see Cheat-sheet_Vim.md).

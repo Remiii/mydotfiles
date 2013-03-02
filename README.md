@@ -79,29 +79,38 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
 
+
 ### Install ZSH part
 
-* Create this link
+#### Create this link
 
 ```bash
 $ ln -s ~/documents/mydotfiles/zsh/oh-my-zsh/templates/zshrc.zsh-template ~/documents/mydotfiles/zsh/.zshrc
 ```
 
-* Modif path in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
+#### Custom the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
+
+Update path, theme add plugins and made some customs.
+
+##### Modif path in the file
 
 ```bash
 ZSH=$HOME/documents/mydotfiles/zsh/oh-my-zsh
 ```
 
-* Custom the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
-
-Update path, theme add plugins and made some customs.
+##### Customize plugins
 
 ```bash
 plugins=(lol git symfony2 github composer debian gnu-utils)
 ```
 
-Sample:
+##### Customize to your needs...
+
+```bash
+eval `dircolors ~/documents/mydotfiles/zsh/dircolors-solarized/dircolors.256dark`
+```
+
+##### Sample
 
 ```bash
 #Path to your oh-my-zsh configuration.
@@ -146,11 +155,29 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/documents/mydotfiles/zsh/dircolors-solarized/dircolors.256dark`
 ```
 
-* Duplicate every files in the good path (eg. ~/.zshrc)
+#### Duplicate every files in the good path (eg. ~/.zshrc)
 
 ```bash
 $ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
 ```
+
+
+### Add remiii.zsh-theme
+
+remiii.zsh-theme (see: [remiii.zsh-theme](https://github.com/Remiii/remiii.zsh-theme)) is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
+
+* Creat this link in order to add remiii.zsh-theme
+
+```bash
+ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/remiii.zsh-theme ~/documents/mydotfiles/zsh/oh-my-zsh/themes/remiii.zsh-theme
+```
+
+* Modif theme in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template in order to add remiii.zsh-theme
+
+```bash
+ZSH_THEME="remiii"
+```
+
 
 ### Install AWS Cli
 
@@ -160,26 +187,6 @@ $ ln -s ~/documents/mydotfiles/zsh/.zshrc ~/.zshrc
 $ ln -s ~/documents/mydotfiles/aws/ ~/.aws
 ```
 
-#### Add remiii.zsh-theme
-
-remiii.zsh-theme (see: [remiii.zsh-theme](https://gist.github.com/Remiii/4140040)) is based on agnoster.zsh-theme (see: [agnoster.zsh-theme](https://gist.github.com/3712874)).
-
-* Creat this link in order to add remiii.zsh-theme
-
-```bash
-ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/agnoster.zsh-theme ~/documents/mydotfiles/zsh/oh-my-zsh/themes/remiii.zsh-theme
-```
-
-* Modif theme in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template in order to add remiii.zsh-theme
-
-```bash
-ZSH_THEME="remiii"
-```
-#### Sample config for ~/.zshrc
-
-```bash
-TODO
-```
 
 ## Update
 

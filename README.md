@@ -9,7 +9,7 @@ Fork me on GITHUB https://github.com/Remiii/mydotfiles
 ![Screen shot - VIM](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_001.png)<br />
 Screen shot of VIM.
 
-![Screen shot - ZSH](https://raw.github.com/Remiii/mydotfiles/master/_documentation/Screen_002.png)<br />
+![Screen shot - ZSH](https://raw.github.com/Remiii/remiii.zsh-theme/master/_documentation/Screen_001.png)<br />
 Screen shot of ZSH.
 
 ## Global Install of the Term

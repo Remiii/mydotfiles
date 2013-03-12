@@ -153,7 +153,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 eval `dircolors ~/documents/mydotfiles/zsh/dircolors-solarized/dircolors.256dark`
-alias vma='cd ~/aa;vagrant up; vagrant ssh'
+alias vma='cd ~/aa;vagrant up;ssh website@127.0.0.1 -p 10022'
 ```
 
 #### Duplicate every files in the good path (eg. ~/.zshrc)

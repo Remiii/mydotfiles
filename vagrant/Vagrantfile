@@ -98,9 +98,10 @@ Vagrant::Config.run do |config|
   #   chef.validation_client_name = "ORGNAME-validator"
 
   # Config NAT (add by Remiii)
+  config.vm.forward_port 80, 80, :auto => true
   config.vm.forward_port 10021, 10021, :auto => true
   config.vm.forward_port 22, 10022, :auto => true
-  config.vm.forward_port 80, 10080, :auto => true
+  config.vm.forward_port 10080, 10080, :auto => true
   config.vm.forward_port 10081, 10081, :auto => true
   config.vm.forward_port 10082, 10082, :auto => true
   config.vm.forward_port 10083, 10083, :auto => true

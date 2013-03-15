@@ -101,7 +101,7 @@ ZSH=$HOME/documents/mydotfiles/zsh/oh-my-zsh
 ##### Customize plugins
 
 ```bash
-plugins=(lol git symfony2 github composer debian gnu-utils)
+plugins=(lol git symfony2 github composer debian gnu-utils brew vagrant)
 ```
 
 ##### Customize to your needs...
@@ -147,7 +147,7 @@ ZSH_THEME="remiii"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(lol git symfony2 github composer debian gnu-utils brew)
+plugins=(lol git symfony2 github composer debian gnu-utils brew vagrant)
 
 source $ZSH/oh-my-zsh.sh
 

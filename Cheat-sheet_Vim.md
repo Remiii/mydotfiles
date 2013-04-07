@@ -284,3 +284,8 @@ TODO
 :1;$ s/\r//g
 ```
 
+### How to encode in UTF-8
+
+```
+:set encoding=utf-8
+```

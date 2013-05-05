@@ -37,6 +37,3 @@
 [submodule "zsh/remiii.zsh-theme"]
 	path = zsh/remiii.zsh-theme
 	url = git@github.com:Remiii/remiii.zsh-theme.git
-[submodule "vim/.vim/bundle/vim-multiple-cursors"]
-	path = vim/.vim/bundle/vim-multiple-cursors
-	url = git://github.com/terryma/vim-multiple-cursors.git

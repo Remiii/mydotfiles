@@ -14,7 +14,7 @@ Screen shot of ZSH.
 
 ***
 
-## Global Install of the Term
+## Install Term
 
 ### On OSX
 
@@ -37,7 +37,7 @@ Marks: think to add config in the Shell config (.zshrc...).
 
 ***
 
-## Install of the Dotfiles
+## Install Dotfiles
 
 ### Global
 
@@ -208,49 +208,47 @@ $ git pull
 
 ***
 
-## VIM Part
+## Informations
+
+### VIM Part
 
 Some info in the Cheat sheet file (see Cheat-sheet_Vim.md).
 
-### Plugin list
+#### Plugin list
 
-#### closetag
+* closetag
 
-#### commad-t
+* commad-t
 
-#### [Delmitmate](http://www.vim.org/scripts/script.php?script_id=2754)
+* [Delmitmate](http://www.vim.org/scripts/script.php?script_id=2754)
 Provides auto-balancing and some expansions for parens, quotes, etc.
 
-#### [NerdTree](http://www.vim.org/scripts/script.php?script_id=1658)
+* [NerdTree](http://www.vim.org/scripts/script.php?script_id=1658)
 A tree explorer plugin for navigating the filesystem.
 
-#### [Solarized](http://ethanschoonover.com/solarized)
+* [Solarized](http://ethanschoonover.com/solarized)
 Precision colorscheme for the vim text editor.
 
-#### supertab
+* supertab
 
-#### togbar
+* togbar
 
-#### [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540)
+* [SnipMate](http://www.vim.org/scripts/script.php?script_id=2540)
 TextMate-style snippets for Vim.
 
-#### [twig](https://github.com/Remiii/vim-twig)
+* [twig](https://github.com/Remiii/vim-twig)
 Twig syntax highlighting, snipMate, etc.
 
-#### [Vim Commenter](http://www.vim.org/scripts/script.php?script_id=1528)
+* [Vim Commenter](http://www.vim.org/scripts/script.php?script_id=1528)
 A plugin that allows for easy commenting of code for many filetypes.
 
-#### [Vim Multiple cursors](https://github.com/terryma/vim-multiple-cursors)
+* [Vim Multiple cursors](https://github.com/terryma/vim-multiple-cursors)
 True Sublime Text style multiple selections for Vim
 
-***
+### ZSH Part
 
-## ZSH Part
-
-### [ZSH](http://www.zsh.org)
+* [ZSH](http://www.zsh.org)
 Official site of ZSH
-
-***
 
 ## See also
 

@@ -1,5 +1,6 @@
 .DS_Store
 *~
+!.gitkeep
 vim/.vim/autoload
 vim/.vim/bundle/*
 vim/.vim/.netrwhist

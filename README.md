@@ -232,6 +232,9 @@ Twig syntax highlighting, snipMate, etc.
 #### [Vim Commenter](http://www.vim.org/scripts/script.php?script_id=1528)
 A plugin that allows for easy commenting of code for many filetypes.
 
+#### [Vim Multiple cursors](https://github.com/terryma/vim-multiple-cursors)
+True Sublime Text style multiple selections for Vim
+
 ## ZSH Part
 
 ### [ZSH](http://www.zsh.org)

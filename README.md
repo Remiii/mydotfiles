@@ -12,6 +12,8 @@ Screen shot of VIM.
 ![Screen shot - ZSH](https://raw.github.com/Remiii/remiii.zsh-theme/master/_documentation/Screen_001.png)<br />
 Screen shot of ZSH.
 
+***
+
 ## Global Install of the Term
 
 ### On OSX
@@ -33,7 +35,11 @@ Screen shot of ZSH.
 [Solarized for files](https://github.com/seebi/dircolors-solarized)
 Marks: think to add config in the Shell config (.zshrc...).
 
-## Install
+***
+
+## Install of the Dotfiles
+
+### Global
 
 * Clone the repository
 
@@ -51,7 +57,7 @@ In order to update submodule : `$git submodule update`
 
 ### Install VIM part
 
-* Set VIM Command-t submodule
+#### Set VIM Command-t submodule
 
 ```bash
 $ cd vim/.vim/bundle/command-t/ruby/command-t
@@ -63,13 +69,13 @@ Make: use VIM does include Ruby support
 
 See: http://github.com/wincent/Command-T
 
-* Create this link
+#### Create this link
 
 ```bash
 $ ln -s ~/documents/mydotfiles/vim/pathogen/autoload/ ~/documents/mydotfiles/vim/.vim/autoload
 ```
 
-* Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
+#### Duplicate every files in the good path (eg. vim/.vimrc in ~/.vimrc)
 
 ```bash
 $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
@@ -78,7 +84,6 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 ```bash
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
-
 
 ### Install ZSH part
 
@@ -188,6 +193,7 @@ ZSH_THEME="remiii"
 $ ln -s ~/documents/mydotfiles/aws/ ~/.aws
 ```
 
+***
 
 ## Update
 
@@ -199,6 +205,8 @@ $ git submodule update
 $ cd toSubmoduleDir
 $ git pull
 ```
+
+***
 
 ## VIM Part
 
@@ -235,10 +243,14 @@ A plugin that allows for easy commenting of code for many filetypes.
 #### [Vim Multiple cursors](https://github.com/terryma/vim-multiple-cursors)
 True Sublime Text style multiple selections for Vim
 
+***
+
 ## ZSH Part
 
 ### [ZSH](http://www.zsh.org)
 Official site of ZSH
+
+***
 
 ## See also
 
@@ -271,9 +283,13 @@ For more information see this articles:
 
 * https://github.com/aws/aws-cli
 
+***
+
 ## License
 
 mydotfiles is licensed under the MIT license (see LICENSE.md file).
+
+***
 
 ## Author
 

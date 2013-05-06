@@ -36,3 +36,15 @@ $ git branch -d branchName
 $ git push --delete origin branchName
 ```
 
+## Tags
+
+### Create a tag
+```bash
+$ git tag -a tagName 
+```
+
+### Push a tag
+```bash
+$ git push --tags 
+```
+

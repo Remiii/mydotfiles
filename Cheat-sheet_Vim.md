@@ -289,3 +289,9 @@ TODO
 ```
 :set encoding=utf-8
 ```
+
+### How to find str in a folder
+
+```
+$ grep -r "myString" ./*
+```

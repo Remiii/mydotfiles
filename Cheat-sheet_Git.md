@@ -36,6 +36,15 @@ $ git branch -d branchName
 $ git push --delete origin branchName
 ```
 
+## Syncing a fork
+
+```bash
+git remote add upstream-branchName https://pathToTheRepo
+git fetch upstream-branchName
+git merge upstream-branchName/branchName
+git push
+```
+
 ## Tags
 
 ### Create a tag

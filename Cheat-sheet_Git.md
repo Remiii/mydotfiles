@@ -30,6 +30,12 @@ $ git push origin branchName
 $ git branch -d branchName 
 ```
 
+### Remove remote branch of the list
+
+```bash
+$ git branch -d -r branchName
+```
+
 ### Remove remote branch (on Github for example)
 
 ```bash

@@ -58,6 +58,16 @@ git push
 $ git tag -a tagName 
 ```
 
+### Create a tag for a specified commit
+```bash
+$ git tag -a tagName commitHash
+```
+
+### Delete a tag
+```bash
+$ git tag -d tagName 
+```
+
 ### Push a tag
 ```bash
 $ git push --tags 

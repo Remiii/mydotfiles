@@ -45,10 +45,18 @@ $ git push --delete origin branchName
 ## Syncing a fork
 
 ```bash
-git remote add upstream-branchName https://pathToTheRepo
-git fetch upstream-branchName
-git merge upstream-branchName/branchName
-git push
+$ git remote add user-branchName https://pathToTheRepo
+$ git fetch user-branchName
+$ git merge user-branchName/branchName
+$ git push
+```
+
+```bash
+$ git remote add user-branchName https://pathToTheRepo
+$ git br
+$ git fetch user-branchName
+$ git branch user-branchName remote/user-branchName/branchName
+$ git br
 ```
 
 ## Tags

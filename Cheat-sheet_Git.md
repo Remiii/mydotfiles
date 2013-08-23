@@ -73,3 +73,9 @@ $ git tag -d tagName
 $ git push --tags 
 ```
 
+## Utils
+
+### Find unmerged branches locally
+```bash
+$ git branch --no-merged
+```

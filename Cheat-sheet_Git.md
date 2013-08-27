@@ -42,15 +42,6 @@ $ git branch -d -r branchName
 $ git push --delete origin branchName
 ```
 
-## Syncing a fork
-
-```bash
-$ git remote add user-branchName https://pathToTheRepo
-$ git fetch user-branchName
-$ git merge user-branchName/branchName
-$ git push
-```
-
 ## Syncing a fork from a User (all branches)
 
 ```bash
@@ -60,6 +51,10 @@ $ git branch -va
 $ git fetch user
 $ git br
 $ git branch -va
+```
+
+```bash
+$ git co -b user-branchName remotes/user/repo
 ```
 
 ## Tags

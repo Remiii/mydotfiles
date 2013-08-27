@@ -51,12 +51,15 @@ $ git merge user-branchName/branchName
 $ git push
 ```
 
+## Syncing a fork from a User (all branches)
+
 ```bash
-$ git remote add user-branchName https://pathToTheRepo
 $ git br
-$ git fetch user-branchName
-$ git branch user-branchName remote/user-branchName/branchName
+$ git remote add user git@github.com:user/repo.git
+$ git branch -va
+$ git fetch user
 $ git br
+$ git branch -va
 ```
 
 ## Tags

@@ -227,6 +227,12 @@ let NERDTreeIgnore=['\.git', '\.DS_Store', '^Icon']
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
 
+""""""""""""""
+" chars2html "
+""""""""""""""
+map ,ch :ConvertChars2Html<CR>
+map ,hc :ConvertHtml2Chars<CR>
+
 """"""""""""
 " Function "
 """"""""""""

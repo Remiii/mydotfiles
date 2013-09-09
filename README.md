@@ -95,6 +95,10 @@ $ ln -s ~/documents/mydotfiles/zsh/oh-my-zsh/templates/zshrc.zsh-template ~/docu
 
 #### Custom the file: zsh/oh-my-zsh/templates/zshrc.zsh-template
 
+```bash
+$ vim ~/documents/mydotfiles/zsh/oh-my-zsh/templates/zshrc.zsh-template
+```
+
 Update path, theme add plugins and made some customs.
 
 ##### Modif path in the file

@@ -87,6 +87,13 @@ $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 
 ### Install ZSH part
 
+#### Setup ZSH
+
+```bash
+$ sudo apt-get install zsh
+$ chsh -s /bin/zsh
+```
+
 #### Create this link
 
 ```bash
@@ -188,6 +195,13 @@ ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/remiii.zsh-theme ~/documents/m
 ZSH_THEME="remiii"
 ```
 
+### Install Git
+
+* Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/git/.gitconfig ~/.gitconfig
+```
 
 ### Install AWS Cli
 

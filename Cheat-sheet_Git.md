@@ -76,7 +76,7 @@ $ git tag -d tagName
 
 ### Push a tag
 ```bash
-$ git push --tags 
+$ git push --tag 
 ```
 
 ## Utils

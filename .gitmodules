@@ -40,3 +40,6 @@
 [submodule "vim/.vim/bundle/vim-multiple-cursors"]
 	path = vim/.vim/bundle/vim-multiple-cursors
 	url = git://github.com/terryma/vim-multiple-cursors.git
+[submodule "pentadactyl/.pentadactyl/bundle/pentadactyl-solarized"]
+	path = pentadactyl/.pentadactyl/bundle/pentadactyl-solarized
+	url = https://github.com/claytron/pentadactyl-solarized

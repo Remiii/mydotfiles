@@ -268,6 +268,14 @@ True Sublime Text style multiple selections for Vim
 * [ZSH](http://www.zsh.org)
 Official site of ZSH
 
+### Pentadactyl
+
+```bash
+$ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactyl/bundle/pentadactyl-solarized/colors/solarized-*.penta ~/documents/mydotfiles/pentadactyl/.pentadactyl/colors/.
+$ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactyl/ ~/.pentadactyl
+$ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactylrc ~/.pentadactylrc
+```
+
 ## See also
 
 ### See also Gloabl part
@@ -298,6 +306,12 @@ For more information see this articles:
 For more information see this articles:
 
 * https://github.com/aws/aws-cli
+
+### See also Pentadactyl
+
+For more information see this articles:
+
+* http://5digits.org/pentadactyl/
 
 ***
 

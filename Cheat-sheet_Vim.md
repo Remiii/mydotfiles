@@ -227,10 +227,21 @@ CTRL-w h            left window
 CTRL-w j            down window
 CTRL-w k            up window
 CTRL-w l            right window
-CTRL-w +            larger window
-CTRL-w -            smaller window
+CTRL-w +            larger window (horizontal) - you can add number
+CTRL-w -            smaller window (horizontal) - you can add number
+CTRL-w >            larger window (vertical) - you can add number
+CTRL-w <            smaller window (vertical) - you can add number
 CTRL-w =            equal window
+CTRL-w |            maximize window
 CTRL-w o            close other windows
+```
+
+### TABS
+
+```
+nt                 newtab
+gt                 next tab
+gT                 pre tab
 ```
 
 ### QUICKFIX WINDOW

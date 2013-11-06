@@ -152,8 +152,9 @@ nmap <silent> ,/ :nohlsearch<CR>
 cmap w!! w !sudo tee % >/dev/null
 
 " Map for Tab (v7.3 only)
-map ô <Esc>:tabprevious<CR>
-map € <Esc>:tabnext<CR>
+"map  <Esc>:tabprevious<CR>
+"map  <Esc>:tabnext<CR>
+cabbrev nt tabedit
 map <leader>tt <Esc>:tabnew<CR>
 map <leader>ts <Esc>:tab split<CR>
 map <leader>tw <Esc>:close<CR>
@@ -252,4 +253,13 @@ noremap <F3> :call CleanCode()<CR>
 "endfunction
 
 "nmap CleanCode :call CleanCode()
+
+
+" Powerline
+
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+" Always show statusline
+set laststatus=2
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
 

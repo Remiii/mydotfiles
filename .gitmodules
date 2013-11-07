@@ -43,3 +43,6 @@
 [submodule "pentadactyl/.pentadactyl/bundle/pentadactyl-solarized"]
 	path = pentadactyl/.pentadactyl/bundle/pentadactyl-solarized
 	url = https://github.com/claytron/pentadactyl-solarized
+[submodule "vim/.vim/bundle/vim-airline"]
+	path = vim/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline

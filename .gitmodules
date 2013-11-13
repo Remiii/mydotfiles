@@ -46,3 +46,6 @@
 [submodule "vim/.vim/bundle/vim-airline"]
 	path = vim/.vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "tmux/.tmux"]
+	path = tmux/.tmux
+	url = https://github.com/seebi/tmux-colors-solarized

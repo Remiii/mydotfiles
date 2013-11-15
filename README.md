@@ -85,6 +85,35 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
 
+### Install Tmux
+
+#### Setup Tmux
+
+```bash
+$ sudo apt-get install tmux
+```
+
+#### Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/tmux/.tmux.conf ~/.tmux.conf
+$ ln -s ~/documents/mydotfiles/tmux/.tmux ~/.tmux
+```
+
+#### If you want update your ColorTheme
+
+```bash
+$ cat ~/.tmux/tmuxcolors-256.conf >> ~/.tmux.conf
+```
+
+### Install Irssi
+
+#### Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/irssi/.irssi/ ~/.irssi
+```
+
 ### Install ZSH part
 
 #### Setup ZSH
@@ -275,6 +304,16 @@ $ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactyl/bundle/pentadactyl-solar
 $ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactyl/ ~/.pentadactyl
 $ ln -s ~/documents/mydotfiles/pentadactyl/.pentadactylrc ~/.pentadactylrc
 ```
+
+### Mutt
+
+```bash
+$ ln -s ~/documents/mydotfiles/mutt/.muttrc ~/.muttrc
+```
+
+### Powerline
+
+Follow this instruction: http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin
 
 ## See also
 

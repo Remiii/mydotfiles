@@ -49,3 +49,6 @@
 [submodule "tmux/.tmux"]
 	path = tmux/.tmux
 	url = https://github.com/seebi/tmux-colors-solarized
+[submodule "tmuxinator/.tmuxinator/tmuxinator"]
+	path = tmuxinator/.tmuxinator/tmuxinator
+	url = git@github.com:aziz/tmuxinator.git

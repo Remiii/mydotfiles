@@ -14,6 +14,12 @@ Screen shot of ZSH.
 
 ***
 
+## Requirments
+
+### Install Ruby
+
+Mark: https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
+
 ## Install Term
 
 ### On OSX
@@ -54,6 +60,13 @@ $ git submodule update --init
 ```
 
 In order to update submodule : `$git submodule update`
+
+
+### Install bin part
+
+```bash
+$  ln -s ~/documents/mydotfiles/bin/.bin ~/.bin
+```
 
 ### Install VIM part
 
@@ -98,6 +111,7 @@ $ sudo apt-get install tmux
 ```bash
 $ ln -s ~/documents/mydotfiles/tmux/.tmux.conf ~/.tmux.conf
 $ ln -s ~/documents/mydotfiles/tmux/.tmux ~/.tmux
+$ ln -s ~/documents/mydotfiles/tmuxinator/.tmuxinator ~/.tmuxinator
 ```
 
 #### If you want update your ColorTheme

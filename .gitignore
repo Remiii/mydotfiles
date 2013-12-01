@@ -6,5 +6,5 @@ vim/.vim/autoload
 vim/.vim/bundle/*
 vim/.vim/.netrwhist
 zsh/.zshrc
-
+pentadactyl/.pentadactyl/info/default/*
 

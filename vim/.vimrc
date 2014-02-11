@@ -98,6 +98,7 @@ set backspace=indent,eol,start      " allow backspacing over everything in inser
 set autoindent          " always set autoindenting on
 set copyindent          " copy the previous indentation on autoindenting
 set number              " always show line numbers
+set relativenumber
 set shiftround          " use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch           " set show matching parenthesis
 set ignorecase          " ignore case when searching
@@ -154,10 +155,25 @@ cmap w!! w !sudo tee % >/dev/null
 " Map for Tab (v7.3 only)
 "map  <Esc>:tabprevious<CR>
 "map  <Esc>:tabnext<CR>
+
+" Pentadactyl-like tab switching
+nnoremap <C-n> gt
+nnoremap <C-p> gT
+
 cabbrev nt tabedit
 map <leader>tt <Esc>:tabnew<CR>
 map <leader>ts <Esc>:tab split<CR>
 map <leader>tw <Esc>:close<CR>
+
+noremap <Esc>1 1gt
+noremap <Esc>2 2gt
+noremap <Esc>3 3gt
+noremap <Esc>4 4gt
+noremap <Esc>5 5gt
+noremap <Esc>6 6gt
+noremap <Esc>7 7gt
+noremap <Esc>8 8gt
+
 "map <D-1> 1gt
 "map <D-2> 2gt
 "map <D-3> 3gt
@@ -257,9 +273,23 @@ noremap <F3> :call CleanCode()<CR>
 
 " Powerline
 
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+"set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
 " Always show statusline
-set laststatus=2
+"set laststatus=2
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
+"set t_Co=256
+
+
+" VIM-POWERLINE
+
+"let g:Powerline_symbols = 'fancy'
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline_powerline_fonts=1
+set encoding=utf-8
 set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+let g:Powerline_mode_V="V·LINE"
+let g:Powerline_mode_cv="V·BLOCK"
+let g:Powerline_mode_S="S·LINE"
+let g:Powerline_mode_cs="S·BLOCK"
 

@@ -279,7 +279,6 @@ noremap <F3> :call CleanCode()<CR>
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 "set t_Co=256
 
-
 " VIM-POWERLINE
 
 "let g:Powerline_symbols = 'fancy'
@@ -293,3 +292,19 @@ let g:Powerline_mode_cv="V·BLOCK"
 let g:Powerline_mode_S="S·LINE"
 let g:Powerline_mode_cs="S·BLOCK"
 
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+" Always show statusline
+set laststatus=2
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
+" Removing Trailing whitespaces on save actions
+
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+
+autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()

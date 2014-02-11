@@ -1,1 +1,4 @@
 colorscheme solarized-dark
+
+set history=20000
+

@@ -16,9 +16,6 @@ Screen shot of ZSH.
 
 ## Requirments
 
-### Install Ruby
-
-Mark: https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
 
 ## Install Term
 
@@ -70,17 +67,6 @@ $  ln -s ~/documents/mydotfiles/bin/.bin ~/.bin
 
 ### Install VIM part
 
-#### Set VIM Command-t submodule
-
-```bash
-$ cd vim/.vim/bundle/command-t/ruby/command-t
-$ ruby extconf.rb
-$ make
-```
-
-Make: use VIM does include Ruby support
-
-See: http://github.com/wincent/Command-T
 
 #### Create this link
 
@@ -281,7 +267,8 @@ Some info in the Cheat sheet file (see Cheat-sheet_Vim.md).
 
 * closetag
 
-* commad-t
+* [CTRL-P](http://kien.github.io/ctrlp.vim/)
+Full path fuzzy file, buffer, mru, tag, ... finder for Vim
 
 * [Delmitmate](http://www.vim.org/scripts/script.php?script_id=2754)
 Provides auto-balancing and some expansions for parens, quotes, etc.

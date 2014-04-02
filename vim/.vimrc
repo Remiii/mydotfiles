@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""
 " Vim config - file .vimrc "
-" By Remiii - 2012/11/17   "
+" By Remiii - 2014/04/02   "
 """"""""""""""""""""""""""""
 
 " To start vim without using this .vimrc file, use:
@@ -201,13 +201,13 @@ let g:solarized_visibility="hight"
 let g:solarized_underline = 1
 colorscheme solarized
 
-""""""""""""
-" CommandT "
-""""""""""""
-" Map for CommandT
-noremap <leader>o <Esc>:CommandT<CR>
-noremap <leader>O <Esc>:CommandTFlush<CR>
-noremap <leader>m <Esc>:CommandTBuffer<CR>
+""""""""""
+" CTRL-P "
+""""""""""
+" Map for CTRL-P
+"noremap <leader>o <Esc>:CommandT<CR>
+"noremap <leader>O <Esc>:CommandTFlush<CR>
+"noremap <leader>m <Esc>:CommandTBuffer<CR>
 
 """"""""""""
 " CloseTag "
@@ -308,3 +308,4 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+

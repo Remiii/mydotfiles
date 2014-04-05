@@ -13,14 +13,14 @@
     '.svn'
     '.DS_Store'
   ]
-  'projectHome': '/Users/fraise/'
+  'projectHome': '~'
   'disabledPackages': [
     'autocomplete'
   ]
 'exception-reporting':
   'userId': '1b305ac2-f919-d4a4-5e0f-809b69fb1a34'
 'release-notes':
-  'viewedVersion': '0.83.0'
+  'viewedVersion': '0.84.0'
 'welcome':
   'showOnStartup': false
 'metrics':

@@ -1,11 +1,31 @@
+# Global part
+
 .DS_Store
 *~
 !.gitkeep
 git/.gitconfig
+
+
+# Atom part
+
+atom/.atom/.node-gyp
+atom/.atom/packages
+atom/.atom/storage
+
+
+# VIM part
+
 vim/.vim/autoload
 vim/.vim/bundle/*
 vim/.vim/.netrwhist
+
+
+# ZSH part
+
 zsh/.zshrc
+
+
+# Pentadactyl
 
 pentadactyl/.pentadactyl/info/default/*
 

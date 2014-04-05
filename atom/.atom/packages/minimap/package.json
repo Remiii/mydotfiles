@@ -1,0 +1,50 @@
+{
+  "name": "minimap",
+  "main": "./lib/minimap",
+  "version": "0.7.0",
+  "private": true,
+  "description": "A preview of the full source code.",
+  "author": {
+    "name": "Fangdun Cai",
+    "email": "cfddream@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Fangdun Cai",
+      "email": "cfddream@gmail.com"
+    },
+    {
+      "name": "Cédric Néhémie",
+      "email": "cedric.nehemie@gmail.com"
+    }
+  ],
+  "activationEvents": [
+    "minimap:toggle",
+    "minimap:toggle-debug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fundon/atom-minimap"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "emissary": "1.x",
+    "mixto": "1.x",
+    "prolix": "1.x"
+  },
+  "readme": "# Minimap package\n\nA preview of the full source code, likes Sublime Text minimap.\n\n![Minimap Screenshot](https://github.com/fundon/atom-minimap/blob/master/screenshot.png?raw=true)\n\n### Installation\n\n```\napm install minimap\n```\n\n### Features\n\n* [Redacted Font][]\n* Multiple Panes\n* Responsive\n* Mouse wheel and click-to-scroll _(no animation)_\n* Drag-to-scroll\n\n### Shortcuts\n\n* `ctrl-k ctrl-m` toggle the minimap without the logs\n* `ctrl-k ctrl-d` toggle the minimap with the logs\n\n### Contributors\n\nhttps://github.com/fundon/atom-minimap/graphs/contributors\n\n### Plugins\n\nThe minimap can be augmented with plugins, belows the list of available plugins so far:\n\n  * [Find And Replace](https://atom.io/packages/minimap-find-and-replace)\n  * [Git Diff](https://atom.io/packages/minimap-git-diff)\n\n### Roadmap\n\n* Custom style\n* Smooth animation\n\n### License\n\nMIT\n\n[Redacted Font]: https://github.com/christiannaths/Redacted-Font\n",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/fundon/atom-minimap/issues"
+  },
+  "homepage": "https://github.com/fundon/atom-minimap",
+  "_id": "minimap@0.7.0",
+  "dist": {
+    "shasum": "41fc6b53ff921c430ad632e5a560460e9b36b680"
+  },
+  "_resolved": "/var/folders/jl/86yxn8sd3c5188y_8l3b6gy00000gn/T/d-11435-9953-6w4h5y/package.tgz",
+  "_from": "/var/folders/jl/86yxn8sd3c5188y_8l3b6gy00000gn/T/d-11435-9953-6w4h5y/package.tgz"
+}

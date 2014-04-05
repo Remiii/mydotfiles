@@ -84,6 +84,14 @@ $ ln -s ~/documents/mydotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/documents/mydotfiles/vim/.vim/ ~/.vim
 ```
 
+### Install Atom part
+
+#### Create this link
+
+```bash
+$ ln -s ~/documents/mydotfiles/atom/.atom/ ~/.atom
+```
+
 ### Install Tmux
 
 #### Setup Tmux
@@ -366,4 +374,3 @@ mydotfiles is licensed under the MIT license (see LICENSE.md file).
 ## Author
 
 @Remiii
-

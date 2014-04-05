@@ -1,0 +1,74 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+@font-face {
+  font-family: 'Redacted';
+  font-weight: normal;
+  font-style: normal;
+  src: url(atom://minimap/resources/redacted-fixed.woff) format('woff');
+  unicode-range: U+21-FF;
+}
+
+.pane.with-minimap {
+  :not(.minimap-editor) > .scroll-view {
+    margin-right: 10%;
+  }
+  .vertical-scrollbar {
+    right: 10%;
+  }
+}
+
+.minimap {
+  position: absolute;
+  left: 90%;
+  width: 10%;
+  bottom: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  .accelerated;
+
+  .line {
+    opacity: .6;
+  }
+
+  .minimap-wrapper {
+    position: absolute;
+    .accelerated;
+    -webkit-transform-origin: 0 0;
+  }
+
+  .minimap-visible-area {
+    position: absolute;
+    width: 100%;
+    background-color: #888;
+    opacity: .2;
+    .accelerated;
+  }
+
+  .minimap-editor {
+    position: absolute;
+    cursor: default;
+    .accelerated;
+    .scroll-view {
+      .accelerated;
+    }
+  }
+
+  // Themes
+  &[data-theme="redacted"] {
+    .editor {
+      font-family: Redacted !important;
+    }
+  }
+
+  // Mixins
+  .accelerated {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+}

@@ -17,14 +17,10 @@
   'disabledPackages': [
     'autocomplete'
   ]
-'exception-reporting':
-  'userId': '1b305ac2-f919-d4a4-5e0f-809b69fb1a34'
 'release-notes':
   'viewedVersion': '0.84.0'
 'welcome':
   'showOnStartup': false
-'metrics':
-  'userId': 'aef70caad355cead4aa42a28643bff27b06409d7'
 'autocomplete':
   'includeCompletionsFromAllBuffers': true
 'autocomplete-plus':

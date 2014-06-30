@@ -225,7 +225,7 @@ remiii.zsh-theme (see: [remiii.zsh-theme](https://github.com/Remiii/remiii.zsh-t
 * Creat this link in order to add remiii.zsh-theme
 
 ```bash
-ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/remiii.zsh-theme ~/documents/mydotfiles/zsh/oh-my-zsh/themes/remiii.zsh-theme
+$ ln -s ~/documents/mydotfiles/zsh/remiii.zsh-theme/remiii.zsh-theme ~/documents/mydotfiles/zsh/oh-my-zsh/themes/remiii.zsh-theme
 ```
 
 * Modif theme in the file: zsh/oh-my-zsh/templates/zshrc.zsh-template in order to add remiii.zsh-theme

@@ -57,6 +57,12 @@ $ git branch -va
 $ git co -b user-branchName remotes/user/repo
 ```
 
+## Branch Squash
+
+```bash
+$ git merge --squash my-branch
+```
+
 ## Tags
 
 ### Create a tag

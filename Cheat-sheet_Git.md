@@ -57,7 +57,7 @@ $ git branch -va
 $ git co -b user-branchName remotes/user/repo
 ```
 
-## Branch Squash
+## Merge Branch (with Squash)
 
 ```bash
 $ git merge --squash my-branch
